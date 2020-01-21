@@ -42,7 +42,7 @@ a:hover,a:focus,a:active{
 .apps{
     text-align: center;
 }
-.hang-man{
+.day-planner{
     text-decoration: none;
     text-align: center;
     background-color: #4aaaa5;
@@ -62,7 +62,7 @@ a:hover,a:focus,a:active{
     bottom: 35px;
     left: 21.25%;
 }
-.trivia-game{
+.javascript-quiz{
     text-decoration: none;
     text-align: center;
     background-color: #4aaaa5;
