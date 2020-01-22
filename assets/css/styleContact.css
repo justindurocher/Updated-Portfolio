@@ -9,6 +9,11 @@
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
+.header-1:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 40px;
+    letter-spacing: 1px;
+}
 .header-2{
     background-color: white;
     color:lightgray;

@@ -14,6 +14,11 @@ section{
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
+.header-1:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 40px;
+    letter-spacing: 1px;
+}
 .header-2{
     background-color: white;
     color:lightgray;
@@ -54,6 +59,22 @@ a:hover,a:focus,a:active{
     border: 2px solid black;
     border-radius: 15px;
     font-weight: bold ;
+}
+.day-planner:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 25px;
+}
+.video-game:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 25px;
+}
+.javascript-quiz:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 25px;
+}
+.rock-paper-scissors:hover{
+    background-image: url(../images/prism.jpg);
+    font-size: 25px;
 }
 .video-game{
     text-decoration: none;
@@ -99,6 +120,22 @@ a:hover,a:focus,a:active{
     text-align: center;
     background-color: #4aaaa5;
     color: white;
+    width: 200px;
+    position: relative;
+    bottom: 45px;
+    left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
+}
+.hover{
+    text-decoration: none;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: larger;
+    padding-top: 3px;
+    height: 40px;
     width: 200px;
     position: relative;
     bottom: 45px;
