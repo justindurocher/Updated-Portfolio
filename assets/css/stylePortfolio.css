@@ -49,18 +49,24 @@ a:hover,a:focus,a:active{
     color: white;
     width: 200px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
 }
-.rpg-game{
+.video-game{
     text-decoration: none;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
     width: 200px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
 }
 .javascript-quiz{
     text-decoration: none;
@@ -69,8 +75,11 @@ a:hover,a:focus,a:active{
     color: white;
     width: 200px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
 }
 .rutgers-info{
     text-decoration: none;
@@ -79,8 +88,11 @@ a:hover,a:focus,a:active{
     color: white;
     width: 200px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
 }
 .rock-paper-scissors{
     text-decoration: none;
@@ -89,8 +101,11 @@ a:hover,a:focus,a:active{
     color: white;
     width: 200px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 21.25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold ;
 }
 .footer{
     border-top-style: solid;

@@ -34,9 +34,13 @@ a:hover,a:focus,a:active{
     text-decoration: none;
 }
 .bio{
-    line-height: 28px;
+    line-height: 35px;
     padding-top: 10px;
     font-family:'Noto Sans JP', sans-serif;
+}
+.skills{
+    float: left;
+    z-index: 1;
 }
 hr{
     color: darkgray;
@@ -44,6 +48,7 @@ hr{
 img{
     float: left;
     margin-right: 10px;
+    z-index: 0;
 }
 .aboutMe{
     color: #4aaaa5;
