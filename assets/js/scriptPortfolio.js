@@ -11,9 +11,13 @@ $("#day-planning").hover(
         $(".day-planner").css("font-size" , "16px");
 
 });
+
 $(".day-planner").hover(function(){
+
     $(".day-planner").css("font-size" , "20px");
+
 });
+
 $("#video-gaming").hover(
 
     function(){
@@ -49,9 +53,13 @@ $("#javascripting").hover(
         $(".javascript-quiz").css("font-size" , "16px");
 
     });
+
     $(".javascript-quiz").hover(function(){
+
         $(".javascript-quiz").css("font-size" , "20px");
+
     });
+
 $("#phone").hover(
 
     function(){
@@ -67,6 +75,9 @@ $("#phone").hover(
     }
 
 );
+
 $(".rock-paper-scissors").hover(function(){
+
     $(".rock-paper-scissors").css("font-size" , "20px");
+    
 });
