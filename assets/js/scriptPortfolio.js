@@ -11,7 +11,9 @@ $("#day-planning").hover(
         $(".day-planner").css("font-size" , "16px");
 
 });
-
+$(".day-planner").hover(function(){
+    $(".day-planner").css("font-size" , "20px");
+});
 $("#video-gaming").hover(
 
     function(){
@@ -29,7 +31,11 @@ $("#video-gaming").hover(
         $(".video-game").css("left" , "");
 
     });
-
+    $(".video-game").hover(function(){
+        $(".video-game").css("font-size" , "20px");
+        $(".video-game").css("width" , "240px");
+        $(".video-game").css("left" , "60px");
+    });
 $("#javascripting").hover(
 
     function(){
@@ -43,7 +49,9 @@ $("#javascripting").hover(
         $(".javascript-quiz").css("font-size" , "16px");
 
     });
-
+    $(".javascript-quiz").hover(function(){
+        $(".javascript-quiz").css("font-size" , "20px");
+    });
 $("#phone").hover(
 
     function(){
@@ -59,3 +67,6 @@ $("#phone").hover(
     }
 
 );
+$(".rock-paper-scissors").hover(function(){
+    $(".rock-paper-scissors").css("font-size" , "20px");
+});
