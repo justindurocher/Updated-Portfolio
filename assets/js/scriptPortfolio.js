@@ -81,3 +81,21 @@ $(".rock-paper-scissors").hover(function(){
     $(".rock-paper-scissors").css("font-size" , "20px");
     
 });
+
+$("#weather-dashing").hover(function(){
+
+    $(".weather-dashboard").css("font-size" , "20px");
+
+} , 
+
+function(){
+
+    $(".weather-dashboard").css("font-size" , "16px");
+
+});
+
+$(".weather-dashboard").hover(function(){
+
+    $(".weather-dashboard").css("font-size" , "20px");
+
+})
