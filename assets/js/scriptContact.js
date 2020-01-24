@@ -19,4 +19,6 @@ function saveData() {
     localStorage.setItem("Message",mess);
 
     console.log(mess);
+
+    location.reload();
 }

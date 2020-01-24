@@ -23,7 +23,9 @@ $("#video-gaming").hover(
     function(){
 
         $(".video-game").css("font-size" , "20px");
+
         $(".video-game").css("width" , "240px");
+        
         $(".video-game").css("left" , "60px");
     
     }, 
@@ -31,15 +33,23 @@ $("#video-gaming").hover(
     function(){
     
         $(".video-game").css("font-size" , "16px");
+
         $(".video-game").css("width" , "200px");
+
         $(".video-game").css("left" , "");
 
     });
-    $(".video-game").hover(function(){
+
+        $(".video-game").hover(function(){
+
         $(".video-game").css("font-size" , "20px");
+
         $(".video-game").css("width" , "240px");
+
         $(".video-game").css("left" , "60px");
+
     });
+
 $("#javascripting").hover(
 
     function(){
