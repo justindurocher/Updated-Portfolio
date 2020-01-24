@@ -1,5 +1,7 @@
 $("#submit").click(saveData);
 
+$(".myName").click(linkGit);
+
 $(".myName").hover(hoveringGit,function(){
 
     $("p").hide();
@@ -13,7 +15,7 @@ $(".yourName").hover(hoveringLink,function(){
     $("p").hide();
 
     $("img").hide();
-    
+
 });
 
 $(".linkedIn").hover(hoveringLink,function(){
@@ -90,5 +92,16 @@ function hoveringLink() {
 
 }
 
+function linkGit() {
+
+    window.location.replace("https://github.com/justindurocher");
+
+}
+
+function linkLink() {
+
+    window.location.replace("https://www.linkedin.com/in/justin-durocher-a34946197/");
+
+}
 
 
