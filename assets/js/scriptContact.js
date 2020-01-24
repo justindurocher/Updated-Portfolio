@@ -1,11 +1,32 @@
 $("#submit").click(saveData);
 
+$(".myName").hover(hoveringGit,function(){
 
-$(".gitHub").hover(hoveringGit,function(){
+    $("p").hide();
 
     $("img").hide();
 
+});
+
+$(".yourName").hover(hoveringLink,function(){
+
     $("p").hide();
+
+    $("img").hide();
+    
+});
+
+$(".linkedIn").hover(hoveringLink,function(){
+
+    $("p").hide();
+
+    $("img").hide();
+})
+$(".gitHub").hover(hoveringGit,function(){
+
+    $("p").hide();
+
+    $("img").hide();
 
 });
 function saveData() {
@@ -49,6 +70,25 @@ function hoveringGit() {
 
 }
 
+function hoveringLink() {
+
+    let linked = $("<img width='50px' height='50px'>");
+
+    linked.attr("src","assets/images/Linkedin-logo.png");
+
+    linked.css("margin-bottom","10px");
+
+    let meToo = $("<p>").text("Justin Durocher");
+
+    let job = $("<p>").text("Laz Parking Valet");
+
+    $(".yourName").append(linked);
+
+    $(".yourName").append(meToo);
+
+    $(".yourName").append(job)
+
+}
 
 
 

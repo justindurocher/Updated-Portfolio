@@ -62,7 +62,7 @@ input{
     font-size: 45px;
 }
 #link{
-    font-size: 30px;
+    font-size: 45px;
 }
 #git:hover,#git:active{
     color: white;
@@ -70,7 +70,11 @@ input{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.myName{
+#link:hover,#link:active{
+    font-size: 70px;
+    padding-top: 10px;
+}
+.myName,.yourName{
     text-align: center;
     margin-top: 15px;
 
