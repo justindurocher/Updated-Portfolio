@@ -51,10 +51,29 @@ input{
 .gitHub{
     text-align: center;
     background-color: orange;
+    color: navy;
 }
 .linkedIn{
     text-align: center;
     background-color: blue;
+    color: cornflowerblue;
+}
+#git{
+    font-size: 45px;
+}
+#link{
+    font-size: 30px;
+}
+#git:hover,#git:active{
+    color: white;
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.myName{
+    text-align: center;
+    margin-top: 15px;
+
 }
 .footer{
     border-top-style: solid;
