@@ -33,19 +33,19 @@ $(".gitHub").hover(hoveringGit,function(){
 });
 function saveData() {
 
-    var name = $(".fullName").val();
+    const name = $(".fullName").val();
 
     localStorage.setItem("Name",name);
 
     console.log(name);
 
-    var email = $(".emailAddy").val();
+    const email = $(".emailAddy").val();
 
     localStorage.setItem("Email",email);
 
     console.log(email);
 
-    var mess = $(".message").val();
+    const mess = $(".message").val();
 
     localStorage.setItem("Message",mess);
 
@@ -60,9 +60,9 @@ function hoveringGit() {
 
     gitHub.attr("src", "assets/images/github-logo.png")
 
-   let me =$("<p>").text("justindurocher");
+   const me =$("<p>").text("justindurocher");
 
-   let repos = $("<p>").text("15 Repositories")
+   const repos = $("<p>").text("15 Repositories")
 
     $(".myName").append(gitHub);
 
@@ -80,9 +80,9 @@ function hoveringLink() {
 
     linked.css("margin-bottom","10px");
 
-    let meToo = $("<p>").text("Justin Durocher");
+    const meToo = $("<p>").text("Justin Durocher");
 
-    let job = $("<p>").text("Laz Parking Valet");
+    const job = $("<p>").text("Laz Parking Valet");
 
     $(".yourName").append(linked);
 
@@ -92,11 +92,13 @@ function hoveringLink() {
 
 }
 
-function linkGit() {
+ function linkGit() {
 
-    window.location.replace("https://github.com/justindurocher");
+    window.location.replace("https://github.com/justindurocher")
 
-}
+};
+
+
 
 function linkLink() {
 
