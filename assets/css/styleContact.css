@@ -44,6 +44,18 @@ section{
 input{
     width: 100%;
 }
+.find{
+    text-align: center;
+    font-size: 30px;
+}
+.gitHub{
+    text-align: center;
+    background-color: orange;
+}
+.linkedIn{
+    text-align: center;
+    background-color: blue;
+}
 .footer{
     border-top-style: solid;
     border-top-width: 8px;
