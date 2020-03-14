@@ -62,7 +62,7 @@ function hoveringGit() {
 
    const me =$("<p>").text("justindurocher");
 
-   const repos = $("<p>").text("15 Repositories")
+   const repos = $("<p>").text("21 Repositories")
 
     $(".myName").append(gitHub);
 
